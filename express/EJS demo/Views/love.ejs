@@ -1,0 +1,9 @@
+<% include partials/header%>
+<h1>You fell in love with: <%= thing %></h1>
+<%if(thing.toLowerCase()==='rusty'){%>
+<p>Good choice</p>
+<%}else {%>
+<p>Bad choice</p>
+<%}%>
+
+<% include partials/footer%>
